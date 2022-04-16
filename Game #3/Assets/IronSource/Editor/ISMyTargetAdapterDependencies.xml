@@ -1,0 +1,45 @@
+<dependencies>
+    <unityversion>4.1.14.2</unityversion>
+    <androidPackages>
+        <androidPackage spec="com.ironsource.adapters:mytargetadapter:4.1.13">
+            <repositories>
+                <repository>https://android-sdk.is.com/</repository>
+            </repositories>
+        </androidPackage>
+    </androidPackages>
+    <androidPackages>
+        <androidPackage spec="com.my.target:mytarget-sdk:5.15.0">
+            <repositories>
+                <repository>https://maven.google.com/</repository>
+            </repositories>
+        </androidPackage>
+    </androidPackages>
+    <androidPackages>
+        <androidPackage spec="com.google.android.exoplayer:exoplayer-core:2.13.3">
+            <repositories>
+                <repository>https://maven.google.com/</repository>
+            </repositories>
+        </androidPackage>
+    </androidPackages>
+    <androidPackages>
+        <androidPackage spec="com.google.android.exoplayer:exoplayer-hls:2.13.3">
+            <repositories>
+                <repository>https://maven.google.com/</repository>
+            </repositories>
+        </androidPackage>
+    </androidPackages>
+    <androidPackages>
+        <androidPackage spec="com.my.tracker:mytracker-sdk:3.0.0">
+            <repositories>
+                <repository>https://maven.google.com/</repository>
+            </repositories>
+        </androidPackage>
+    </androidPackages>
+    <iosPods>
+        <iosPod name="IronSourceMyTargetAdapter" version="4.1.13.2">
+            <sources>
+                <source>https://github.com/CocoaPods/Specs</source>
+            </sources>
+        </iosPod>
+    </iosPods>
+</dependencies>
